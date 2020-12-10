@@ -1,3 +1,36 @@
+body{
+    font-family: Montserrat;
+    width: 80vw;
+}
 div img {
     width: 20%;
+}
+
+div {
+    display: flex;
+}
+
+#displayed-img{
+    width: 80vw;
+}
+
+h1{
+    text-align: center;
+}
+
+#end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+@media screen and (min-width: 641px){
+    body{
+        width: 640px
+    }
+
+    #displayed-img{
+        width: 640px;
+    }
 }

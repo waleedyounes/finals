@@ -3,16 +3,34 @@
 
 <head>
     <meta charset="utf-8">
+    <title>Navigation</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <script src="script/script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    </style>
 </head>
 
 <body>
-    <h1>Welcome to our gallery</h1>
-    <p>Hover on any thumbnail to see it bigger</p>
-    <div id="thumb-bar"> </div>
-    <img class="displayed-img">
-    <label>What effect do you want to apply?</label>
-    <input id="effect" type="text">
-    <button>Submit</button>
+    <section>
+        <h1>Welcome to our gallery</h1>
+        <p>Hover on any thumbnail to see it bigger</p>
+    </section>
+    <section>
+        <div id="thumb-bar">
+            <img src="images/pic1.jpg" alt="Blue eyes">
+            <img src="images/pic2.jpg" alt="Some wavy rocky things">
+            <img src="images/pic3.jpg" alt="Flowers">
+            <img src="images/pic4.jpg" alt="Ancient Egyptian hieroglyphics">
+            <img src="images/pic5.jpg" alt="A butterfly">
+        </div>
+        <img id="displayed-img" src="images/pic5.jpg" alt="A butterfly">
+    </section>
+    <section id="end">
+        <label>What effect do you want to apply?</label>
+        <input id="effect" type="text">
+        <button>Submit</button>
+    </section>
 </body>
 
 </html>
